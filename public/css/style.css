@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 body {
     background-color: HoneyDew;
 }
 
 #fancy{
   font-family: fantasy;
+=======
+body, html {
+    background-color: HoneyDew;
+>>>>>>> 86eea59f8c9907aacf049072d3e287770f163652
 }
+
+#fancy{
+  font-family: fantasy;
+}
+

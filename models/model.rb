@@ -22,6 +22,7 @@
 # end
 
 def result(size,event)
+<<<<<<< HEAD
   if size=="s"
     if event=="business"
       "Hello"
@@ -38,3 +39,21 @@ def result(size,event)
     end
   end
 end
+=======
+if size=="s"
+  if event=="business"
+    "Hello"
+  end
+end
+if size=="m"
+  if event =="business"
+    "Hey!"
+  end
+end
+if size "l"
+  if event =="business"
+    "HEELLLOOO"
+  end
+end
+end
+>>>>>>> 86eea59f8c9907aacf049072d3e287770f163652
