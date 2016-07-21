@@ -7,29 +7,46 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <img src="images/pic.jpg">
-    <!--FORM-->
-    <form action="/advice" method="post">
-      <label for="question">Please enter your size, event, and budget!</label>
-      <input type="text" name="size">
-      <input type="text" name="event">
-      <input type="text" name="budget">
-      <input type="button" name="submit!">
-    </form>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+      </div>
+    <div class="col-md-6">
+    <img src="/images/title.jpg" style="width:400px;height:200px;">
+    </div>
 
-<h1>Size!</h1>
+    </div>
+    <!--FORM-->
+<h5>
+  We know it's hard to find affordable clothes that fit in all the right places, so we're here to help. Click on your size, event, and budget, and we'll give you an idea of an outfit for whatever occasion it may be, along with links to the stores you should totally be checking out!
+</h5>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+
+<h1>Size</h1>
   <input type="radio" name="size" value="s"> 00 - 4<br>
   <input type="radio" name="size" value="m"> 6 - 10<br>
   <input type="radio" name="size" value="l"> 12 - 16+<br>
-<h1>Event!</h1>
+<h1>Event</h1>
   <input type="radio" name="event" value="business"> I'm going to work!<br>
   <input type="radio" name="event" value="formal"> I'm going to a fancy happening!<br>
   <input type="radio" name="event" value="casual"> I'm just looking for something casual.<br>
-<h1>Budget!</h1>
+<h1>Budget</h1>
   <input type="radio" name="budget" value="$"> I've got like $20-$50<br>
   <input type="radio" name="budget" value="$$"> I've got like $100+.<br>
   <input type="radio" name="budget" value="$$$"> The limit does not exist in my wallet.<br>
-
+  <form action="/advice" method="post"><br>
+    <input type="button" name="submit" value="Submit!"><br>
+  </form>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+</div>
   </body>
