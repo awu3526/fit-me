@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Results </title>
+    <link href='https://fonts.googleapis.com/css?family=Bungee+Shade' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <style>
+    body{
+      background-image: url("images/bg.jpg");
+    }
+    h1 {
+      font-family: 'Bungee Shade', cursive;
+      font-weight: bold;
+      font-size: 60px;
+      text-align: center;
+    }
+
+    h2{
+      text-align: center;
+      font-size: 30px;
+      font-family: "Josefin Sans", sans-serif;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <h1> Here's your best fit</h1>
+    <img src="<%=@results%>" alt="">
+    <h2><%=@endpage%></h2>
+    <center><img src="images/pic1.jpg" align="middle"></center>
+
+
+  </body>
+</html>
