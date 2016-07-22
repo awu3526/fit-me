@@ -1,17 +1,19 @@
 body, html {
-  background-image: url("images/bg.jpg");
-  background-repeat: repeat;
+  /*background-image: url("images/bg.jpg");*/
+  /*background-repeat: repeat;*/
   text-align: center;
-  font-family: Avantgarde, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 100;
+
 }
 
 #paragraph{
-  font-family: Avantgarde, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 100;
+  font-size: 30px;
 }
 
 h1 {
-  font-family: pacifico;
+
   font-weight: bold;
 }
