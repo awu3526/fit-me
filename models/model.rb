@@ -22,21 +22,15 @@
 # end
 
 
-puts "Please input a size"
-answer1 = gets.chomp
-puts "Please input your event"
-answer2=gets.chomp
-puts "Please input your budget"
-answer3=gets.chomp
 def result(size,event,budget)
 if size=="s"&&event=="business"&&budget=="$"
   ["Since you are a small going to a business event with a small budget, you should go to Kohls, H&M, or Sears!", "/images/pic1.jpg"]
 elsif size=="s"&&event=="business"&&budget=="$$"
-  "Since you are a small going to a business event with a medium budget, you should go to Banana Republic, LOFT, or GAP!"
+  ["Since you are a small going to a business event with a medium budget, you should go to Banana Republic, LOFT, or GAP!", "/images/pic2.jpg"]
 elsif size=="s"&&event=="business"&&budget=="$$$"
-    "Since you are a small going to a business event with a large budget, you should go to Nordstrom, Macy's, or J.Crew!"
+    ["Since you are a small going to a business event with a large budget, you should go to Nordstrom, Macy's, or J.Crew!", "/images/pic3.jpg"]
   elsif size=="s"&&event=="formal"&&budget=="$"
-    "Since you are a small going to a formal event with a small budget, you should go to DEB or David's Bridal"
+    ["Since you are a small going to a formal event with a small budget, you should go to DEB or David's Bridal", "/images/pic4.jpg"]
   elsif size=="s"&&event=="formal"&&budget=="$$"
     "Since you are a small going to a formal event with a medium budget, you should go to promgirl.com"
   elsif size=="s"&&event=="formal"&&budget=="$$$"
@@ -104,4 +98,3 @@ end
 #     "You are a large attending a casual event"
 #   end
 # end
-puts result(answer1,answer2,answer3)
