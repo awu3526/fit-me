@@ -8,6 +8,10 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+  post '/advice' do
+    erb :advice
+  end
+
   post '/results' do
     @size = params[:size]
     @event = params[:event]

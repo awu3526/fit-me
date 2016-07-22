@@ -38,7 +38,7 @@ elsif size=="s"&&event=="business"&&budget=="$$$"
   elsif size=="s"&&event=="casual"&&budget=="$"
     ["Since you are a small going to a casual event with a small budget, you should go to Forever 21, H&M, Brandy Melville. or Old Navy", "/images/pic7.jpg"]
   elsif size=="s"&&event=="casual"&&budget=="$$"
-    ["Since you are a small going to a casual event with a medium budget, you should go to American Eagle or Pacsun". "/images/pic8.jpg"]
+    ["Since you are a small going to a casual event with a medium budget, you should go to American Eagle or Pacsun", "/images/pic8.jpg"]
   elsif size=="s"&&event=="casual"&&budget=="$$$"
     ["Since you are a small going to a casual event with a large budget, you should go to Free People, Anthropoligie, or Aritzia", "/images/pic9.jpg"]
   elsif size=="m"&&event=="business"&&budget=="$"
