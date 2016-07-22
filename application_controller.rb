@@ -8,5 +8,12 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
-post get '/'
+  post '/results' do
+    @size = params[:size]
+    @event = params[:event]
+    @budget = params[:budget]
+    @endpage = result(@size,@event,@budget)[0]
+    @image = result(@size,@event,@budget)[1]
+    erb :results
+  end
 end

@@ -30,7 +30,7 @@ puts "Please input your budget"
 answer3=gets.chomp
 def result(size,event,budget)
 if size=="s"&&event=="business"&&budget=="$"
-  "Since you are a small going to a business event with a small budget, you should go to Kohls, H&M, or Sears!"
+  ["Since you are a small going to a business event with a small budget, you should go to Kohls, H&M, or Sears!", "/images/pic1.jpg"]
 elsif size=="s"&&event=="business"&&budget=="$$"
   "Since you are a small going to a business event with a medium budget, you should go to Banana Republic, LOFT, or GAP!"
 elsif size=="s"&&event=="business"&&budget=="$$$"
