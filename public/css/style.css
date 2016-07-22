@@ -1,3 +1,14 @@
-body{
-  
+body {
+    background-color: HoneyDew;
+}
+
+body, html {
+  background-image: url("/images.bg.jpg");
+  background-repeat: repeat;
+  text-align: center;
+  font-family: florence, fantasy;
+}
+
+#fancy{
+  font-family: fantasy, sans-serif;
 }
