@@ -32,31 +32,31 @@ elsif size=="s"&&event=="business"&&budget=="$$$"
   elsif size=="s"&&event=="formal"&&budget=="$"
     ["Since you are a small going to a formal event with a small budget, you should go to DEB or David's Bridal", "/images/pic4.jpg"]
   elsif size=="s"&&event=="formal"&&budget=="$$"
-    "Since you are a small going to a formal event with a medium budget, you should go to promgirl.com"
+    ["Since you are a small going to a formal event with a medium budget, you should go to promgirl.com", "/images/pic5.jpg"]
   elsif size=="s"&&event=="formal"&&budget=="$$$"
-    "Since you are a small going to a formal event with a large budget, you should go to Nordstrom"
+    ["Since you are a small going to a formal event with a large budget, you should go to Nordstrom", "/images/pic6.jpg"]
   elsif size=="s"&&event=="casual"&&budget=="$"
-    "Since you are a small going to a casual event with a small budget, you should go to Forever 21, H&M, Brandy Melville. or Old Navy"
+    ["Since you are a small going to a casual event with a small budget, you should go to Forever 21, H&M, Brandy Melville. or Old Navy", "/images/pic7.jpg"]
   elsif size=="s"&&event=="casual"&&budget=="$$"
-    "Since you are a small going to a casual event with a medium budget, you should go to American Eagle or Pacsun"
+    ["Since you are a small going to a casual event with a medium budget, you should go to American Eagle or Pacsun". "/images/pic8.jpg"]
   elsif size=="s"&&event=="casual"&&budget=="$$$"
-    "Since you are a small going to a casual event with a large budget, you should go to Free People, Anthropoligie, or Aritzia"
+    ["Since you are a small going to a casual event with a large budget, you should go to Free People, Anthropoligie, or Aritzia", "/images/pic9.jpg"]
   elsif size=="m"&&event=="business"&&budget=="$"
-    "Since you are a medium going to a business event with a small budget, you should go to H&M or Burlington"
+    ["Since you are a medium going to a business event with a small budget, you should go to H&M or Burlington",  "/images/pic10.jpg"]
   elsif size=="m"&&event=="business"&&budget=="$$"
-    "Since you are a medium going to a business event with a medium budget, you should go to JCPenny, LOFT, or Express"
+    ["Since you are a medium going to a business event with a medium budget, you should go to JCPenny, LOFT, or Express",  "/images/pic2.jpg"]
   elsif size=="m"&&event=="business"&&budget=="$$$"
-    "Since you are a medium going to a business event with a large budget, you should go to Nordstrom, Macys, or J.Crew"
+    ["Since you are a medium going to a business event with a large budget, you should go to Nordstrom, Macys, or J.Crew" , "/images/pic11.jpg"]
   elsif size=="m"&&event=="formal"&&budget=="$"
-    "Since you are a medium going to a formal event with a small budget, you should go to DEB or David's Bridal"
+    ["Since you are a medium going to a formal event with a small budget, you should go to DEB or David's Bridal" ,  "/images/pic12"]
   elsif size=="m"&&event=="formal"&&budget=="$$"
-    "Since you are a medium going to a formal event with a medium budget, you should go to promgirl.com"
+    ["Since you are a medium going to a formal event with a medium budget, you should go to promgirl.com" ,  "/images/pic13.jpg"]
   elsif size=="m"&&event=="formal"&&budget=="$$$"
-    "Since you are a medium going to a formal event with a large budget, you should go to Sherri Hill or Nordstrom"
+    ["Since you are a medium going to a formal event with a large budget, you should go to Sherri Hill or Nordstrom" ,  "/images/pic14.jpg"]
   elsif size=="m"&&event=="casual"&&budget=="$"
-    "Since you are a medium going to a casual event with a small budget, you should go to H&M, Old Navy, or Forever 21"
+    ["Since you are a medium going to a casual event with a small budget, you should go to H&M, Old Navy, or Forever 21" , "/images/pic15.jpg"]
   elsif size=="m"&&event=="casual"&&budget=="$$"
-    "Since you are a medium going to a casual event with a medium budget, you should go to Nordstrom Rack or Urban Outfitters"
+    ["Since you are a medium going to a casual event with a medium budget, you should go to Nordstrom Rack or Urban Outfitters" , "/images/pic16.jpg"]
   elsif size=="m"&&event=="casual"&&budget=="$$$"
     "Since you are a medium going to a casual event with a large budget, you should go to Rag & Bone, Madewell, or Aritzia"
   elsif size=="l"&&event=="business"&&budget=="$"
