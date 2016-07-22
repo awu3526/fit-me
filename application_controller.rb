@@ -1,5 +1,6 @@
 require 'bundler'
 Bundler.require
+require_relative 'models/model.rb'
 
 class ApplicationController < Sinatra::Base
 
@@ -7,4 +8,5 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+post get '/'
 end
